@@ -22,7 +22,7 @@ namespace XIVLauncher
                 InitialSetup();
             }
 
-            if(Properties.Settings.Default.autologin == true && !Settings.IsAdministrator())
+            if(Properties.Settings.Default.autologin && !Settings.IsAdministrator())
             {
                 try
                 {
